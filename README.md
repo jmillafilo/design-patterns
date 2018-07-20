@@ -1,4 +1,4 @@
-# patrones de disenio
+# patrones de diseño
 
 Dentro de los patrones de diseño GOF (The Gang of Four), se hace una pequeña referencia de ciertos patrones de diseño, de los cuales considero que son los mas usados o simples de aplicar, como bien se sabe se pueden separar en 3 grandes aristas, estas son:
 * Patrones de creación
