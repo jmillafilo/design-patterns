@@ -1,7 +1,9 @@
-# patrones-de-disenio
+# patrones de disenio
 
-Se sube proyecto ocn distintas aplicaciones de los patrones de diseño mas usados.
-en esos estan:
+Dentro de los patrones de diseño GOF (The Gang of Four), se hace una pequeña referencia de ciertos patrones de diseño, de los cuales considero que son los mas usados o simples de aplicar, como bien se sabe se pueden separar en 3 grandes aristas, estas son:
+* Patrones de creación
+* Patrones de estructura 
+* Patrones de comportamiento
 
 ## Patrones de Creación (Creational Patterns)
 
