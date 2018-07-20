@@ -1,4 +1,4 @@
-# patrones de diseño
+# Patrones de diseño
 
 Dentro de los patrones de diseño GOF (The Gang of Four), se hace una pequeña referencia de ciertos patrones de diseño, de los cuales considero que son los mas usados o simples de aplicar, como bien se sabe se pueden separar en 3 grandes aristas, estas son:
 * Patrones de creación
@@ -6,6 +6,7 @@ Dentro de los patrones de diseño GOF (The Gang of Four), se hace una pequeña r
 * Patrones de comportamiento
 
 ## Patrones de Creación (Creational Patterns)
+Son patrones de diseño relacionados con la creación o construcción de objetos. Estos patrones intentan controlar la forma en que los objetos son creados implementando mecanismos que eviten la creación directa de objetos
 
 ### Builder
 Mediante este patrón pretendemos crear objetos complejos a partir de un objeto fuente, también denominado producto, centralizando el proceso de creación en un único punto. Esto nos permite mediante un procedimiento único, crear objetos complejos de distintas clases únicamente configurando el Builder.
@@ -51,6 +52,8 @@ Usamos el patrón Singleton...
 
 
 ## Patrones de Estructura (Structural Patterns)
+Son patrones que tiene que ver con la forma en que las clases se relacionan con otras clases. Estos patrones ayudan a dar un mayor orden a nuestras clases ayudando a crear componentes más flexibles y extensibles.
+
 
 ### Decorator 
 Adjuntar responsabilidades adicionales a un objeto de forma dinámica. Los decoradores proporcionan una alternativa flexible para ampliar la funcionalidad.
@@ -89,7 +92,8 @@ Facade{
 * [Facade](https://github.com/jmillafilo/patrones-de-disenio/tree/master/estructural/facade)
 
 
-## Patrones de Comportamiento (Behavioral Patterns)
+## Patrones de Comportamiento (Behavioral Patterns) 
+Son patrones que están relacionados con procedimientos y con la asignación de responsabilidad a los objetos. Los patrones de comportamiento engloban también patrones de comunicación entre ellos
 
 ### Strategy
 Definir una familia de algoritmos, encapsular cada uno, y que sean intercambiables. Strategy permite al algoritmo variar independientemente de los clientes que lo utilizan.
