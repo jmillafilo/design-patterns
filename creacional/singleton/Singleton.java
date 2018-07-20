@@ -1,7 +1,7 @@
 package creacional.singleton;
 
 /**
- * Created by luisburgos on 19/07/15.
+ * Created by jmillafilo 
  */
 public class Singleton {
 
@@ -17,7 +17,7 @@ public class Singleton {
      * This way singleton is thread-safe
      * @return
      */
-    public synchronized static Singleton getInstance(){
+    public synchronized static Singleton getInstancia(){
         if(instance == null){
             instance = new Singleton();
         }

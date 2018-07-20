@@ -1,8 +1,8 @@
 package estructural.decorator;
 
 /**
- * Created by luisburgos on 11/08/15.
+ * Created by jmillafilo 
  */
-public interface Component {
+public interface Componente {
     public void doOperation();
 }

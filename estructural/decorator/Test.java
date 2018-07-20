@@ -1,16 +1,17 @@
 package estructural.decorator;
 
 /**
- * Created by luisburgos on 11/08/15.
+ * Created by jmillafilo 
  */
 public class Test {
 
     public static void main(String[] args) {
 
-        Component component = new ConcreteDecoratorOne(new ConcreteComponent());
+        Componente component; 
+        component = new DecoratorConcreto(new ComponenteConcreto());
         component.doOperation();
-        System.out.println("Adding concrete component two...");
-        component = new ConcreteDecoratorOne(new ConcreteDecoratorTwo(new ConcreteComponent()));
+        System.out.println("Salida");
+        component = new DecoratorConcreto(new DecoratorConcreto(new ComponenteConcreto()));
         component.doOperation();
     }
 

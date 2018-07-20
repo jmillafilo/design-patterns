@@ -1,7 +1,7 @@
 package creacional.factory;
 
 /**
- * Created by luisburgos on 15/07/15.
+ * Created by jmillafilo 
  */
 public abstract class Product {
 

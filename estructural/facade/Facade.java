@@ -1,21 +1,21 @@
 package estructural.facade;
 
 /**
- * Created by luisburgos on 12/08/15.
+ * Created by jmillafilo 
  */
 public class Facade {
 
-    private ConcreteActionOne one;
-    private ConcreteActionTwo two;
+    private AccionConcreto one;
+    private AccionConcreto two;
 
     public Facade() {
-        System.out.println("This is the FACADE pattern...");
-        this.one = new ConcreteActionOne();
-        this.two = new ConcreteActionTwo();
+        System.out.println("Este es Facade Padre...");
+        this.one = new AccionConcreto("Uno");
+        this.two = new AccionConcreto("Dos");
     }
 
     public void doSomethingInOne() {
-        System.out.println("Calling doSomething in action ONE:");
+        System.out.println("Llamando al doSomething:");
         one.doSomething();
     }
 

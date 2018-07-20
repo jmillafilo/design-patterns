@@ -1,5 +1,8 @@
-package comportamiento.templatemethod.bank;
-public abstract class CuentaBancaria{
+package comportamiento.templatemethod;
+/**
+ * Created by jmillafilo 
+ */
+public abstract class CuentaBancariaTemplate{
 	private String cuenta;
 	private int saldo = 0;
 

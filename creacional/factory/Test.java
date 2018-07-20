@@ -1,7 +1,7 @@
 package creacional.factory;
 
 /**
- * Created by luisburgos on 15/07/15.
+ * Created by jmillafilo 
  */
 public class Test {
 
@@ -10,9 +10,9 @@ public class Test {
         Factory factory;
         Product productCreated;
 
-        factory = new ConcreteFactoryOne();
+        factory = new FactoryConcreto();
 
-        productCreated = factory.createProduct("one");
+        productCreated = factory.createProduct("primer");
 
         if(productCreated != null){
             System.out.println(productCreated.getInformation());
@@ -20,9 +20,9 @@ public class Test {
             System.out.println("No product created.");
         }
 
-        factory = new ConcreteFactoryTwo();
+        factory = new FactoryConcreto();
 
-        productCreated = factory.createProduct("two");
+        productCreated = factory.createProduct("segundo");
 
         if(productCreated != null){
             System.out.println(productCreated.getInformation());

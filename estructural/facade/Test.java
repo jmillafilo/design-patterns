@@ -1,7 +1,7 @@
 package estructural.facade;
 
 /**
- * Created by luisburgos on 12/08/15.
+ * Created by jmillafilo 
  */
 public class Test {
 

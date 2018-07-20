@@ -1,4 +1,7 @@
-package comportamiento.Iterador.iterator;
+package comportamiento.Iterador;
+/**
+ * Created by jmillafilo 
+ */
 public class Test{
 	public static void main(String... args){
 		ListaPalabras lp = new ListaPalabras();

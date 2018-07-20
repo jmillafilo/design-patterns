@@ -1,20 +1,20 @@
 package creacional.singleton;
 
 /**
- * Created by luisburgos on 19/07/15.
+ * Created by jmillafilo 
  */
 public class Test {
 
     public static void main(String[] args) {
 
-        Singleton singletonOne = Singleton.getInstance();
-        Singleton singletonTwo = Singleton.getInstance();
-
-        if(singletonOne == singletonTwo){
+        Singleton singletonOne = Singleton.getInstancia();
             System.out.println("Objects are the same instance");
             System.out.println("    Singleton one hash code: " + System.identityHashCode(singletonOne));
-            System.out.println("    Singleton two hash code: " + System.identityHashCode(singletonTwo));
-        }
+            ClaseAnexa testTwo = new ClaseAnexa();
+            testTwo.probarSingleton();
+            
+       
     }
 
 }
+

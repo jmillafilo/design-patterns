@@ -1,28 +1,28 @@
-package comportamiento.strategy.transportation;
+package comportamiento.strategy;
 
 /**
- * Created by luisburgos on 12/07/15.
+ * Created by jmillafilo 
  */
-public class Traveler {
+public class Viajero {
 
     private String name;
-    private TransportationMode transportationMode;
+    private Strategy transportationMode;
 
-    public Traveler(){}
+    public Viajero(){}
 
-    public Traveler(String name){
+    public Viajero(String name){
         this.setName(name);
     }
 
-    public void setTransportationMode(TransportationMode transportationMode){
+    public void setTransportationMode(Strategy transportationMode){
         this.transportationMode = transportationMode;
     }
 
-    public TransportationMode getTransportationMode(){
+    public Strategy getTransportationMode(){
         return transportationMode;
     }
 
-    public void travelToAirport(){
+    public void salirDeViaje(){
         System.out.println(this.toString() + getTransportationMode().travel());
     }
 
@@ -37,6 +37,6 @@ public class Traveler {
 
     @Override
     public String toString() {
-        return "I am " + getName() + ". ";
+        return "Yo soy" + getName() + ". ";
     }
 }

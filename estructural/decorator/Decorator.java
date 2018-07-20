@@ -1,18 +1,19 @@
 package estructural.decorator;
 
 /**
- * Created by luisburgos on 11/08/15.
+ * Created by jmillafilo 
  */
-public abstract class Decorator implements Component {
+public abstract class Decorator implements Componente {
 
-    protected Component component;
+    protected Componente component;
 
-    public Decorator(Component component){
+    public Decorator(Componente component){
         this.component = component;
     }
 
     @Override
     public void doOperation() {
+    	
         component.doOperation();
     }
 }
