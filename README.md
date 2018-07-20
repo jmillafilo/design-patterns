@@ -87,7 +87,7 @@ Facade{
 * [Facade](https://github.com/jmillafilo/patrones-de-disenio/tree/master/estructural/facade)
 
 
-##Patrones de Comportamiento (Behavioral Patterns)
+## Patrones de Comportamiento (Behavioral Patterns)
 
 ### Strategy
 Definir una familia de algoritmos, encapsular cada uno, y que sean intercambiables. Strategy permite al algoritmo variar independientemente de los clientes que lo utilizan.
