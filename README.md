@@ -5,6 +5,12 @@ en esos estan:
 
 Patrones de Creación (Creational Patterns)
 1.	Builder
+Mediante este patrón pretendemos crear objetos complejos a partir de un objeto fuente, también denominado producto, centralizando el proceso de creación en un único punto. Esto nos permite mediante un procedimiento único, crear objetos complejos de distintas clases únicamente configurando el Builder.
+Usamos el patrón Builder cuando queremos...
+•	Construir un objeto compuesto de otros objetos.
+•	Que la creación de las partes de un objeto sea independiente del objeto principal.
+•	El algoritmo de creación del objeto complejo puede independizarse de las partes que lo componen y del ensamblado de las mismas.
+
 2.	Factory
 3.	Singleton
 
