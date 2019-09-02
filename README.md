@@ -172,3 +172,52 @@ Clase claseDos implements Template{
   }
 }
 * [templatemethod](https://github.com/jmillafilo/patrones-de-disenio/tree/master/comportamiento/templatemethod)
+
+
+
+# SOLID
+La intención es aplicar estos principios en conjunto para que sea
+más probable obtener un software fácil de mantener y extender
+en el tiempo
+
+##S - Single Responsibility 
+* Este principio se basa en el principio de
+cohesión de Tom DeMarco.
+* Principle Un objeto debería tener una única responsabilidad.
+* Si una clase tiene más de una responsabilidad, entonces las mismas quedan acopladas.
+* Los cambios en una responsabilidad pueden afectar o inhibir la capacidad de la clase para cumplir con el resto.
+* Nunca debería haber más de una razón para que una clase cambie.
+* Esta clase de acoplamiento conduce a diseños frágiles que se rompen de maneras inesperadas cuando se producen cambios
+
+
+##O - Open/Closed Principle 
+Las entidades de software deberían estar abiertas para extensión pero cerradas para modificación.
+
+* Debiéramos escribir módulos que puedan ser extendidos sin necesidad de ser modificados.
+* Al momento de hacer el diseño se tiene que pensar en hacerlo flexible para poder agregar una futura funcionalidad
+* Están "Abiertos para Extensión": El comportamiento del módulo puede ser extendido.
+* Están "Cerrados para Modificación": El código fuente del módulo es inviolable.
+
+
+##L - Liskov Substitution Principle 
+Un objeto en un programa podría ser reemplazado con instancias de sus subtipos sin alterar la
+correctitud del programa.
+
+* Liskov lo creo barbara Liskov.
+* Al modificar el tipo de dato no deberia afectar al programa.
+* En una interface se debe poner los metodos que comparten los tipos de datos y luego trabajar en base a dicha interface, como lo indica el patron de diseño *Facade*
+
+
+##I - Interface Segregation Principle
+Muchas interfaces específicas son mejores que interfaces de propósitos generales.
+
+* esto es para no obligar a clases implementar clases que no utilizan.
+* menos es más respecto a las interfaces
+
+
+##D Dependency Inversion Principle
+Deberíamos depender de las abstracciones y no de las concreciones.
+
+* Los modulos de arto nivel no dependen de uno de menor nivel, al menos que utilice una abstracción
+* 
+
